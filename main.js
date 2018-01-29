@@ -1,7 +1,7 @@
 function checkOnclickEvent() {
 
    var li = document.createElement('li');
-   li.innerHTML = 'Item ' + itemsByTagName.length;;
+   li.innerHTML = 'Item ' + itemsByTagName.length;
    list.appendChild(li);
 }
 var itemsByTagName = document.getElementsByTagName('li'),
